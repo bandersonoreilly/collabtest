@@ -112,3 +112,5 @@ To get you to achieve mastery of regex in short order, we're going to step away 
 == NLTK
 
 == Web Mining with Mechanize
+
+/// There are much better libraries for doing this -- particularly dedicated libraries like scrapy.
