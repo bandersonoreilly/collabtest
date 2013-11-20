@@ -1,0 +1,114 @@
+= Python for Linguists
+
+== Preface
+
+////
+Serious serious issues.
+////
+
+////
+*Comment* block
+
+This is going nowhere.
+
+Use: hide comments
+////
+
+//// 
+ga ga ga ga ga gagagagaga
+////
+
+[quote, Ezra Pound]
+____
+And then went down to the ship, 
+Set keel to breakers, forth on the godly sea, and 
+We set up mast and sail on that swart ship, 
+Bore sheep aboard her, and our bodies also 
+Heavy with weeping, so winds from sternward 
+Bore us out onward with bellying canvas, 
+Circe's this craft, the trim-coifed goddess.
+____
+
+While this book is intended as an introduction to programming for linguists, this is not only for academic linguists, but anybody who needs to work with natural language. This book, therefore, presents programming in the context of hands-on tasks involving natural language.
+
+image::images/wordcloud.png[]
+
+== What you can do with Python
+
+Python, due to its accessibility, readability, and wide variety of useful libraries, has slowly become the most popular programming language.
+
+=== Natural Language Processing
+
+For many, Python has edged out Perl (the longtime favorite) for text and natural language processing (NLP). It has a very powerful regular expression syntax, which is used for pattern matching. Better yet, there is a strong set of libraries supporting a wide variety of NLP tasks. First and foremost is the Natural Language Toolkit (NLTK), which allows you to perform many classic NLP methods, such as:
+
+* Text conversion (changing format of written language)
+* Classification (spam filtering)
+* Part-of-speech parsing (for syntactically analyzing texts)
+* Building corpora (an internet chat corpus)
+
+.Machine Learning
+****
+Probably the most exciting applications of NLP lately have been with machine learning, which together power the social web.
+****
+
+=== Libraries
+
+NLTK has many poasfdaswaswerful language libraries in its arsenal. This includes:
+
+* Linguistic corpora (the Brown Corpus, the Gutenberg Corpus, and many others)
+* Treebanks (the Penn Treebank)
+* Dictionaries (the Carnegie-Mellon dictionary, a spell-checking dictionary, and others)
+* Other linguistic collections (the most notable being Wordnet)
+
+After you install NLTK, downloading all of these libraries is possible through a very intuitive interface.
+
+You can use easy_install (or pip) from the command line to install NLTK. It shouldn't take very long.
+
++> easy_install nltk+
+
+After you've installed the module, it's time to download the libraries. You do this using the download() method of the module. So open up Python and type:
+
++> import nltk+
++> nltk.download()+
+
+pass:[<replaceable>foo</replaceable>]
+pass:[<userinput>foo</userinput>]
+pass:[<userinput><replaceable>foo</replaceable></userinput>]
+
+[role="filename"]_/path/to/file.ext_
+
+[role="citetitle"]_This Book Needs No Title_
+
+=== Data Analysis
+
+Python, in conjunction with mathematics packages, data visualization packages, etc., give you powerful ways of mining, analyzing, and visualizing data. Better yet, if you want to mine data from online sources, there are many ways of achieving this.footnote:[Modules like urllib2 and mechanize]
+
+== Getting Started with Python
+
+=== Installing Python
+
+=== Finding a good text editor
+
+== The Python Programming Language
+
+=== Introduction
+
+=== Computer Science 101
+
+=== What makes Python special
+
+=== Data types
+
+== File I/O
+
+== Regex
+
+Regex (short for "regular expressions") is a powerful sort of programming language. More properly, it could be called a "mini-language" as it's not complete in itself. It's a language for representing search patterns for text. Ever come across "wildcard" search in online databases (or in Microsoft Office)? Ever use an asterisk (*) to represent "anything"? Regex is a more powerful, flexible version of that.
+
+To get you to achieve mastery of regex in short order, we're going to step away from Python for a while. Here we're going to learn more about powerful text editors, and up your productivity in ways you probably won't expect.
+
+[something about Sublime Text Editor here?]
+
+== NLTK
+
+== Web Mining with Mechanize
